@@ -41,4 +41,5 @@ public class stockServiceImp implements stockService{
     public stock findById(long id) {
         return stockRepository.findById(id).orElse(null);
     }
+
 }
